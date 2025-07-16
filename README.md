@@ -37,4 +37,4 @@ Proyek ini dirancang sebagai latihan untuk:
 2. Jalankan program lewat terminal dengan perintah:
 
 ```bash
-python kalkulator.py
+python Kalkulator_Sederhana.py
