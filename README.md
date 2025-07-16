@@ -1,37 +1,40 @@
-📌 Deskripsi Proyek
-Kalkulator Sederhana - Python CLI Project
+# 🧮 Kalkulator Sederhana - Python CLI Project
 
-Ini adalah program kalkulator sederhana berbasis terminal (Command Line Interface) yang ditulis menggunakan bahasa pemrograman Python. Program ini dapat melakukan empat operasi matematika dasar:
+## 📌 Deskripsi Proyek
 
-Penjumlahan (+)
+Ini adalah program **kalkulator sederhana berbasis terminal (Command Line Interface)** yang ditulis menggunakan bahasa pemrograman **Python**. Program ini dapat melakukan empat operasi matematika dasar:
 
-Pengurangan (-)
+- ➕ Penjumlahan (`+`)
+- ➖ Pengurangan (`-`)
+- ✖️ Perkalian (`*`)
+- ➗ Pembagian (`/`)
 
-Perkalian (*)
+Pengguna akan diminta untuk memasukkan dua angka dan memilih jenis operasi yang diinginkan. Setelah hasil ditampilkan, pengguna diberi pilihan untuk **mengulangi perhitungan** atau **keluar dari program**.
 
-Pembagian (/)
+### 🔍 Fitur Utama
+- Validasi input operasi matematika
+- Penanganan kesalahan **pembagian dengan nol**
+- Penggunaan perulangan `while` untuk navigasi interaktif
+- Format output yang **rapi dan mudah dibaca**
 
-Pengguna akan diminta untuk memasukkan dua angka dan memilih jenis operasi yang diinginkan. Setelah hasil ditampilkan, pengguna diberi pilihan untuk mengulangi perhitungan atau keluar dari program.
+---
 
-Program ini juga mencakup:
+## 📚 Tujuan Pembelajaran
 
-Validasi input operasi matematika
-
-Penanganan kesalahan pembagian dengan nol
-
-Penggunaan perulangan while untuk navigasi interaktif
-
-Format output yang rapi dan mudah dibaca
-
-📚 Tujuan Pembelajaran
 Proyek ini dirancang sebagai latihan untuk:
 
-Pemahaman struktur kontrol (if, while)
+- Memahami struktur kontrol (`if`, `while`)
+- Mengelola input dari pengguna (`input()`)
+- Melakukan operasi matematika dasar
+- Membuat antarmuka berbasis teks yang interaktif
+- Mengorganisasikan kode ke dalam **fungsi yang reusable**
 
-Penanganan input dari pengguna (input())
+---
 
-Operasi matematika dasar
+## 🚀 Cara Menjalankan
 
-Praktik membuat antarmuka berbasis teks yang interaktif
+1. Pastikan Python sudah terinstal.
+2. Jalankan program lewat terminal dengan perintah:
 
-Pengorganisasian kode menjadi fungsi yang reusable
+```bash
+python kalkulator.py
